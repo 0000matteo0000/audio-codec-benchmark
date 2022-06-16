@@ -1,0 +1,14 @@
+__pycache__/
+*.json
+!/merged_results.json
+*.pdf
+*.png
+!/figures/quality.png
+*.pyc
+/decoded.wav
+/encoded
+/original.wav
+/test_files/*
+/tmp.wav
+/venv*/
+/white.wav

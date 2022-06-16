@@ -1,0 +1,2830 @@
+{
+    "aac": {
+        "32k": {
+            "compression_ratio": [
+                0.0063923660948450485,
+                0.003448598551673498
+            ],
+            "decoding_time_per_second": [
+                0.025836445498025568,
+                0.012060136161337496
+            ],
+            "encoding_time_per_second": [
+                0.028921189270018202,
+                0.006762774940804491
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.69861144606398,
+                3.4772546409943748
+            ],
+            "signal_incoherence": [
+                0.9426851334779237,
+                0.006876769394567563
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.07803500423401,
+                3.265229206861529
+            ],
+            "spectral_error_mean_db": [
+                122.90626502070772,
+                3.473268103615491
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                6.317710487052466,
+                9.854417879940682
+            ],
+            "weighted_signal_incoherence": [
+                0.9692721549511429,
+                0.0034912065213665387
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.77855674210802,
+                3.395324624232313
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                6.317710487052466,
+                9.854417879940682
+            ]
+        },
+        "40k": {
+            "compression_ratio": [
+                0.007838449848629993,
+                0.004230216879312629
+            ],
+            "decoding_time_per_second": [
+                0.025845097879030162,
+                0.01307745176397523
+            ],
+            "encoding_time_per_second": [
+                0.029860425219012995,
+                0.007013204582365706
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.7406241764762,
+                3.476760531292627
+            ],
+            "signal_incoherence": [
+                0.9270799264174945,
+                0.00765830161836572
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.171666858232253,
+                3.2557566579556583
+            ],
+            "spectral_error_mean_db": [
+                122.7875904429188,
+                3.4743378515575776
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                6.618470683301063,
+                8.031366904542368
+            ],
+            "weighted_signal_incoherence": [
+                0.956333992869078,
+                0.003732332734898046
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.58453919053953,
+                3.385074513695965
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                6.618470683301063,
+                8.031366904542368
+            ]
+        },
+        "48k": {
+            "compression_ratio": [
+                0.009332359525545997,
+                0.005034788562158812
+            ],
+            "decoding_time_per_second": [
+                0.025951662739998937,
+                0.012476172910023807
+            ],
+            "encoding_time_per_second": [
+                0.03099847190500941,
+                0.007022478914618792
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.78140620545906,
+                3.4765718184043597
+            ],
+            "signal_incoherence": [
+                0.907812599782891,
+                0.01049116766667248
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.239303004170427,
+                3.2481523684377187
+            ],
+            "spectral_error_mean_db": [
+                122.77229668451739,
+                3.4758316669307425
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.582503042067238,
+                10.531666058162928
+            ],
+            "weighted_signal_incoherence": [
+                0.9452447146812395,
+                0.0056074572699232935
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.56327016894328,
+                3.3837287398636366
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.582503042067238,
+                10.531666058162928
+            ]
+        },
+        "56k": {
+            "compression_ratio": [
+                0.010789421689380432,
+                0.005820894236953018
+            ],
+            "decoding_time_per_second": [
+                0.024739547251025215,
+                0.010878723809011599
+            ],
+            "encoding_time_per_second": [
+                0.03212406489002115,
+                0.007321422226671445
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.81229032168272,
+                3.473693115545222
+            ],
+            "signal_incoherence": [
+                0.8911339808345419,
+                0.013346819010548247
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.32066402730057,
+                3.246789614371507
+            ],
+            "spectral_error_mean_db": [
+                122.78096728524032,
+                3.4812313600634734
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                9.60502681064944,
+                9.97141305936913
+            ],
+            "weighted_signal_incoherence": [
+                0.9418574820034785,
+                0.006021060534221923
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.57428197243351,
+                3.392515376963716
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                9.60502681064944,
+                9.97141305936913
+            ]
+        },
+        "64k": {
+            "compression_ratio": [
+                0.012237925623763317,
+                0.0066019754600349055
+            ],
+            "decoding_time_per_second": [
+                0.02540699259896519,
+                0.011382003819548358
+            ],
+            "encoding_time_per_second": [
+                0.032368987531936,
+                0.006911004116034983
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.825140758692,
+                3.4727549234984854
+            ],
+            "signal_incoherence": [
+                0.8747068043637045,
+                0.014394172942961997
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.379881949458728,
+                3.246198832536152
+            ],
+            "spectral_error_mean_db": [
+                122.74253944275513,
+                3.479610460279625
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.647102336385357,
+                11.042851255594215
+            ],
+            "weighted_signal_incoherence": [
+                0.937802500173861,
+                0.0059772074472497745
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.52489705400112,
+                3.384521259469686
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.647102336385359,
+                11.042851255594215
+            ]
+        },
+        "80k": {
+            "compression_ratio": [
+                0.015127606868858607,
+                0.008162741951772287
+            ],
+            "decoding_time_per_second": [
+                0.02477457651297391,
+                0.01024430486479206
+            ],
+            "encoding_time_per_second": [
+                0.033822468049997494,
+                0.0068875866937373985
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.8431981537096,
+                3.470461842779418
+            ],
+            "signal_incoherence": [
+                0.8360422597456287,
+                0.020257950666985856
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.421361943590053,
+                3.2577651318889926
+            ],
+            "spectral_error_mean_db": [
+                122.67730907748299,
+                3.482269258737027
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.959401118543845,
+                10.572450510834482
+            ],
+            "weighted_signal_incoherence": [
+                0.9300075455540348,
+                0.006583920758630373
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.43785940803185,
+                3.383095849140993
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.959401118543845,
+                10.572450510834482
+            ]
+        },
+        "96k": {
+            "compression_ratio": [
+                0.018022937327824645,
+                0.009722024886469846
+            ],
+            "decoding_time_per_second": [
+                0.025447766927028624,
+                0.010317436105931053
+            ],
+            "encoding_time_per_second": [
+                0.034624491056991245,
+                0.007195416076980774
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.85133705308434,
+                3.4692391052506544
+            ],
+            "signal_incoherence": [
+                0.8091101617391336,
+                0.021191337769898896
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.41637442282058,
+                3.261820086365231
+            ],
+            "spectral_error_mean_db": [
+                122.6137862993512,
+                3.475042907427047
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.056932194333413,
+                9.12842563557597
+            ],
+            "weighted_signal_incoherence": [
+                0.9218651039064161,
+                0.0059637077953818745
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.3449603465554,
+                3.3697987161419585
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.056932194333413,
+                9.12842563557597
+            ]
+        },
+        "112k": {
+            "compression_ratio": [
+                0.02090662423617892,
+                0.01127198946196793
+            ],
+            "decoding_time_per_second": [
+                0.024192135652965588,
+                0.009299245657672211
+            ],
+            "encoding_time_per_second": [
+                0.03537088861997563,
+                0.007633510667471902
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.85522694743005,
+                3.4686924947274
+            ],
+            "signal_incoherence": [
+                0.7842837756538069,
+                0.023665337765793527
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.394913261045627,
+                3.226808155180004
+            ],
+            "spectral_error_mean_db": [
+                122.57727403612664,
+                3.4732774072975885
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.283980542268027,
+                8.949923642076655
+            ],
+            "weighted_signal_incoherence": [
+                0.9157112169233806,
+                0.0054874028626623935
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.28459300021046,
+                3.3638496407556313
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.283980542268027,
+                8.949923642076655
+            ]
+        },
+        "128k": {
+            "compression_ratio": [
+                0.023806306387074597,
+                0.012843458562068194
+            ],
+            "decoding_time_per_second": [
+                0.024172553314051128,
+                0.008793912956220963
+            ],
+            "encoding_time_per_second": [
+                0.03563957285803781,
+                0.007430489261495087
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.86042285455017,
+                3.4682977562072432
+            ],
+            "signal_incoherence": [
+                0.764736629279458,
+                0.024547859547561075
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.426441380195417,
+                3.2444771373643104
+            ],
+            "spectral_error_mean_db": [
+                122.55645348540857,
+                3.47148556246814
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.111870565364132,
+                9.411729891992632
+            ],
+            "weighted_signal_incoherence": [
+                0.9113462719886584,
+                0.005153676776642098
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.25252718150975,
+                3.358821220467011
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.111870565364132,
+                9.411729891992632
+            ]
+        },
+        "144k": {
+            "compression_ratio": [
+                0.026719484115655546,
+                0.014429339810036017
+            ],
+            "decoding_time_per_second": [
+                0.024844419619979817,
+                0.010160674799941458
+            ],
+            "encoding_time_per_second": [
+                0.035271943948984245,
+                0.007126757125547247
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.86387616863135,
+                3.467980899875736
+            ],
+            "signal_incoherence": [
+                0.7519679337191824,
+                0.024486440466919307
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.43317608427695,
+                3.2454611542046696
+            ],
+            "spectral_error_mean_db": [
+                122.54607270296331,
+                3.4711586826988574
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.564247972979421,
+                7.637218557256786
+            ],
+            "weighted_signal_incoherence": [
+                0.9082693818988297,
+                0.004893717056814801
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.23529735513668,
+                3.3574083718626198
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.564247972979421,
+                7.637218557256786
+            ]
+        },
+        "160k": {
+            "compression_ratio": [
+                0.029609831938922297,
+                0.015990772524498487
+            ],
+            "decoding_time_per_second": [
+                0.02485151692998488,
+                0.009124098143748783
+            ],
+            "encoding_time_per_second": [
+                0.03501881307801932,
+                0.006405121926846563
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.86834080367643,
+                3.467540980555467
+            ],
+            "signal_incoherence": [
+                0.7374676273277971,
+                0.024589918760565613
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.44421001932906,
+                3.2408239178092786
+            ],
+            "spectral_error_mean_db": [
+                122.54232298941353,
+                3.469078008594123
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.776249575392745,
+                8.070997167523702
+            ],
+            "weighted_signal_incoherence": [
+                0.9060118822866681,
+                0.004715153870959607
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.22881398225067,
+                3.356292727290025
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.776249575392745,
+                8.070997167523702
+            ]
+        },
+        "192k": {
+            "compression_ratio": [
+                0.03543692691052376,
+                0.019151198799234256
+            ],
+            "decoding_time_per_second": [
+                0.02445791914298343,
+                0.009037762494419921
+            ],
+            "encoding_time_per_second": [
+                0.03528780516699362,
+                0.006737581323357934
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.874177230755,
+                3.467763491913828
+            ],
+            "signal_incoherence": [
+                0.7155122912298891,
+                0.02526890573188739
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.468341818782303,
+                3.238309837622252
+            ],
+            "spectral_error_mean_db": [
+                122.53705588540464,
+                3.469190264946716
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.61331379354,
+                6.655244271782482
+            ],
+            "weighted_signal_incoherence": [
+                0.9029821672718922,
+                0.004775203578743644
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.22282709271094,
+                3.3564751828565123
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.61331379354,
+                6.655244271782482
+            ]
+        },
+        "224k": {
+            "compression_ratio": [
+                0.04127083547816336,
+                0.02230319464322097
+            ],
+            "decoding_time_per_second": [
+                0.024744189792978433,
+                0.009814505150480076
+            ],
+            "encoding_time_per_second": [
+                0.03654478325899981,
+                0.007933888749549369
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.88087892292808,
+                3.467879590614541
+            ],
+            "signal_incoherence": [
+                0.685701916442279,
+                0.02925805010248986
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.477716950841366,
+                3.23917022103564
+            ],
+            "spectral_error_mean_db": [
+                122.5389421139549,
+                3.4706686552897597
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.216173209256201,
+                7.066090606484466
+            ],
+            "weighted_signal_incoherence": [
+                0.9016463099790624,
+                0.004617422798060481
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.2238194331056,
+                3.357262292825493
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.216173209256201,
+                7.066090606484466
+            ]
+        },
+        "256k": {
+            "compression_ratio": [
+                0.04705323937785144,
+                0.02543498493712926
+            ],
+            "decoding_time_per_second": [
+                0.025268096939001224,
+                0.010340930452829135
+            ],
+            "encoding_time_per_second": [
+                0.037535600026981225,
+                0.008027938550753122
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.89285119189657,
+                3.468896815358663
+            ],
+            "signal_incoherence": [
+                0.6840907601021002,
+                0.029952753237105428
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.496730945194514,
+                3.2416460789042136
+            ],
+            "spectral_error_mean_db": [
+                122.54817903957309,
+                3.471027671150053
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.385925815286674,
+                6.594896754150073
+            ],
+            "weighted_signal_incoherence": [
+                0.9021946562744085,
+                0.004544444984953539
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.23343255523467,
+                3.357512259972323
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.385925815286674,
+                6.594896754150073
+            ]
+        },
+        "320k": {
+            "compression_ratio": [
+                0.057864731494167404,
+                0.03197009487774624
+            ],
+            "decoding_time_per_second": [
+                0.02567203714598327,
+                0.009820120309853138
+            ],
+            "encoding_time_per_second": [
+                0.04101885592701683,
+                0.010371159040813028
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.8994124176525,
+                3.4701656897193027
+            ],
+            "signal_incoherence": [
+                0.6546673679589411,
+                0.03565324577712413
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.511638437574828,
+                3.2371014713349586
+            ],
+            "spectral_error_mean_db": [
+                122.55399966572243,
+                3.4750092284300926
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                14.467417436039435,
+                10.594314538690417
+            ],
+            "weighted_signal_incoherence": [
+                0.9015948019457058,
+                0.004348172736564595
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.23926184239293,
+                3.3591847664829233
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                14.467417436039435,
+                10.594314538690417
+            ]
+        }
+    },
+    "ac3": {
+        "32k": {
+            "compression_ratio": [
+                0.006122721484499005,
+                0.0033140027317910604
+            ],
+            "decoding_time_per_second": [
+                0.025484406232228845,
+                0.011068648907463622
+            ],
+            "encoding_time_per_second": [
+                0.021822000612248506,
+                0.005542435096766043
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.21291644153436,
+                3.5040000988736044
+            ],
+            "signal_incoherence": [
+                0.94280952940444,
+                0.01328274647753033
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.72101563178824,
+                3.4693812236806885
+            ],
+            "spectral_error_mean_db": [
+                122.36798896853796,
+                3.5636020740984033
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.654672926778169,
+                9.692462397256673
+            ],
+            "weighted_signal_incoherence": [
+                0.9761815661292148,
+                0.005823017631849644
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.43681726963098,
+                3.527181131241665
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.654672926778169,
+                9.692462397256673
+            ]
+        },
+        "40k": {
+            "compression_ratio": [
+                0.007656860921505156,
+                0.004128886070492443
+            ],
+            "decoding_time_per_second": [
+                0.02534133800599375,
+                0.010583040196275342
+            ],
+            "encoding_time_per_second": [
+                0.02196720416602511,
+                0.005548520247260495
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.4894549626738,
+                3.4941217169337726
+            ],
+            "signal_incoherence": [
+                0.9000458389860806,
+                0.017837923818053342
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.767645082143584,
+                3.2922477608104557
+            ],
+            "spectral_error_mean_db": [
+                121.27008841139005,
+                3.5927796259762865
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.395797253441646,
+                10.455736051789925
+            ],
+            "weighted_signal_incoherence": [
+                0.9478742626772191,
+                0.010671535718181654
+            ],
+            "weighted_spectral_error_mean_db": [
+                116.40584272463164,
+                3.5919860457449495
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.395797253441646,
+                10.455736051789925
+            ]
+        },
+        "48k": {
+            "compression_ratio": [
+                0.009099530047330589,
+                0.004906994465838301
+            ],
+            "decoding_time_per_second": [
+                0.024867519521970735,
+                0.009454688026162585
+            ],
+            "encoding_time_per_second": [
+                0.021994745989989496,
+                0.005730754320431195
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.4353330390815,
+                3.4965029938958896
+            ],
+            "signal_incoherence": [
+                0.8544397576313496,
+                0.023574709491780248
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.60014440294861,
+                3.3210356065037274
+            ],
+            "spectral_error_mean_db": [
+                120.40165053337002,
+                3.5879189541524235
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                9.961015347581636,
+                9.44415130402085
+            ],
+            "weighted_signal_incoherence": [
+                0.9145060014507057,
+                0.013430312947884406
+            ],
+            "weighted_spectral_error_mean_db": [
+                115.48969565501736,
+                3.58294318359138
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                9.961015347581636,
+                9.44415130402085
+            ]
+        },
+        "56k": {
+            "compression_ratio": [
+                0.010542199173156023,
+                0.005685102937296536
+            ],
+            "decoding_time_per_second": [
+                0.0253841501429838,
+                0.00998398228680974
+            ],
+            "encoding_time_per_second": [
+                0.022979842278011347,
+                0.006234726481415172
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.41745431225945,
+                3.5015565936555415
+            ],
+            "signal_incoherence": [
+                0.8126437184389459,
+                0.023831990935540368
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.532810091226462,
+                3.3084301412030324
+            ],
+            "spectral_error_mean_db": [
+                119.85066313763961,
+                3.573197588872157
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.639953918403812,
+                9.106690512859632
+            ],
+            "weighted_signal_incoherence": [
+                0.887658377146755,
+                0.013075212015321799
+            ],
+            "weighted_spectral_error_mean_db": [
+                114.83455651122362,
+                3.550867160523834
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.639953918403812,
+                9.106690512859632
+            ]
+        },
+        "64k": {
+            "compression_ratio": [
+                0.011984868298981457,
+                0.006463211457377555
+            ],
+            "decoding_time_per_second": [
+                0.025120073504995618,
+                0.008968147368706643
+            ],
+            "encoding_time_per_second": [
+                0.023033641479003563,
+                0.006977365107347423
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.40491564198808,
+                3.50558534552614
+            ],
+            "signal_incoherence": [
+                0.784214786801936,
+                0.022170492631474494
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.49060808732042,
+                3.3027842868488775
+            ],
+            "spectral_error_mean_db": [
+                119.45670531762109,
+                3.567821108124714
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.620601053789863,
+                8.958654119127175
+            ],
+            "weighted_signal_incoherence": [
+                0.8700869369453869,
+                0.012342668272203643
+            ],
+            "weighted_spectral_error_mean_db": [
+                114.34126183133507,
+                3.5279482004856684
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.620601053789863,
+                8.958654119127175
+            ]
+        },
+        "80k": {
+            "compression_ratio": [
+                0.014870206550632325,
+                0.008019428586794728
+            ],
+            "decoding_time_per_second": [
+                0.023730416605998016,
+                0.0076589534267987565
+            ],
+            "encoding_time_per_second": [
+                0.022223866573987835,
+                0.005898176144402248
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.38635005969638,
+                3.506274591894608
+            ],
+            "signal_incoherence": [
+                0.7550422419738421,
+                0.019512531521539443
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.463265327979535,
+                3.2979600858602276
+            ],
+            "spectral_error_mean_db": [
+                118.97122731009942,
+                3.552275544952648
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                5.792242995774782,
+                7.8867416844304685
+            ],
+            "weighted_signal_incoherence": [
+                0.8516509151992455,
+                0.010889302485149304
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.7388173990363,
+                3.4928990179843495
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                5.792242995774782,
+                7.8867416844304685
+            ]
+        },
+        "96k": {
+            "compression_ratio": [
+                0.017755544802283193,
+                0.00957564578686679
+            ],
+            "decoding_time_per_second": [
+                0.02481711765698128,
+                0.009263994640715055
+            ],
+            "encoding_time_per_second": [
+                0.022985633704965494,
+                0.008078336338280574
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.3782070689586,
+                3.50721803573542
+            ],
+            "signal_incoherence": [
+                0.7440200151153427,
+                0.019505972839839368
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.43940261161542,
+                3.292828830439091
+            ],
+            "spectral_error_mean_db": [
+                118.77042647034767,
+                3.539411951249086
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                4.498144792412488,
+                7.192546453705203
+            ],
+            "weighted_signal_incoherence": [
+                0.8449088854765392,
+                0.010316520138204123
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.47010839040811,
+                3.4722181423197958
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                4.4981447924124875,
+                7.192546453705203
+            ]
+        },
+        "112k": {
+            "compression_ratio": [
+                0.020641027090388318,
+                0.011131940714525699
+            ],
+            "decoding_time_per_second": [
+                0.024765280425986476,
+                0.009004942717242548
+            ],
+            "encoding_time_per_second": [
+                0.02308901019002815,
+                0.005536918358462899
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.41059403877668,
+                3.5048100635625845
+            ],
+            "signal_incoherence": [
+                0.5934844039621271,
+                0.04263830625222412
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.523601906591352,
+                3.295005594801714
+            ],
+            "spectral_error_mean_db": [
+                118.75529316727089,
+                3.5390572830669784
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.734551250219862,
+                9.053882408412901
+            ],
+            "weighted_signal_incoherence": [
+                0.8221901172507599,
+                0.011243934409839871
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.47628582044898,
+                3.455730059165786
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.734551250219862,
+                9.053882408412901
+            ]
+        },
+        "128k": {
+            "compression_ratio": [
+                0.023526365342039182,
+                0.012688157981549434
+            ],
+            "decoding_time_per_second": [
+                0.02533854057997951,
+                0.009584029726232934
+            ],
+            "encoding_time_per_second": [
+                0.023467956524032614,
+                0.005738677703647454
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.40802493617454,
+                3.504627207543174
+            ],
+            "signal_incoherence": [
+                0.547361835566515,
+                0.04728699704703093
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.518948198127042,
+                3.289173727787931
+            ],
+            "spectral_error_mean_db": [
+                118.64595656060816,
+                3.5318171773523415
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.674679289149399,
+                9.139157376646937
+            ],
+            "weighted_signal_incoherence": [
+                0.8129621236783929,
+                0.011661334543605309
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.33799270297224,
+                3.442884735859124
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.674679289149399,
+                9.139157376646937
+            ]
+        },
+        "144k": {
+            "compression_ratio": [
+                0.023526365342039182,
+                0.012688157981549434
+            ],
+            "decoding_time_per_second": [
+                0.024961693215967442,
+                0.009585154291035309
+            ],
+            "encoding_time_per_second": [
+                0.023223767829985264,
+                0.005410471114772183
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.40802493617454,
+                3.504627207543174
+            ],
+            "signal_incoherence": [
+                0.547361835566515,
+                0.04728699704703093
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.518948198127042,
+                3.289173727787931
+            ],
+            "spectral_error_mean_db": [
+                118.64595656060816,
+                3.5318171773523415
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.674679289149399,
+                9.139157376646937
+            ],
+            "weighted_signal_incoherence": [
+                0.8129621236783929,
+                0.011661334543605309
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.33799270297224,
+                3.442884735859124
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.674679289149399,
+                9.139157376646937
+            ]
+        },
+        "160k": {
+            "compression_ratio": [
+                0.029297041845340918,
+                0.015800592562735916
+            ],
+            "decoding_time_per_second": [
+                0.025221999301995313,
+                0.008856687309364883
+            ],
+            "encoding_time_per_second": [
+                0.02412058035096834,
+                0.0063177489306305516
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.4121278789046,
+                3.504324045235807
+            ],
+            "signal_incoherence": [
+                0.4661432705030265,
+                0.04490753781088568
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.518649547243562,
+                3.289422597722279
+            ],
+            "spectral_error_mean_db": [
+                118.568470311528,
+                3.5217900812727967
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.538616629916982,
+                6.009695570393114
+            ],
+            "weighted_signal_incoherence": [
+                0.7966969238800193,
+                0.009940624757651019
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.23702190578649,
+                3.4233148626252348
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.538616629916982,
+                6.009695570393114
+            ]
+        },
+        "192k": {
+            "compression_ratio": [
+                0.035067718348642654,
+                0.01891302718091621
+            ],
+            "decoding_time_per_second": [
+                0.024904467607952938,
+                0.008837323462167871
+            ],
+            "encoding_time_per_second": [
+                0.025264612868995756,
+                0.011627535664697737
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.41096514606485,
+                3.504167893239391
+            ],
+            "signal_incoherence": [
+                0.401353403712141,
+                0.050913510811002434
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.516059808500945,
+                3.292246268423102
+            ],
+            "spectral_error_mean_db": [
+                118.49372942343757,
+                3.5177340287742878
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.761839014240039,
+                3.1589774187863418
+            ],
+            "weighted_signal_incoherence": [
+                0.7874695751337638,
+                0.009631598019864787
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.13276359924664,
+                3.411584550637789
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.761839014240039,
+                3.1589774187863418
+            ]
+        },
+        "224k": {
+            "compression_ratio": [
+                0.04083839485194439,
+                0.022025461820407446
+            ],
+            "decoding_time_per_second": [
+                0.02463358893102577,
+                0.00869424772799882
+            ],
+            "encoding_time_per_second": [
+                0.024589707357995393,
+                0.005517737677846964
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.4101587405911,
+                3.5040919294873993
+            ],
+            "signal_incoherence": [
+                0.3592120016138579,
+                0.04523208664383042
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.515160748794692,
+                3.2931375781767596
+            ],
+            "spectral_error_mean_db": [
+                118.45270302795612,
+                3.5167586956457635
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.0917501765045,
+                3.1994462362139147
+            ],
+            "weighted_signal_incoherence": [
+                0.7812826829944132,
+                0.008726049220905864
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.07496889596253,
+                3.405653739805923
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.0917501765045,
+                3.1994462362139147
+            ]
+        },
+        "256k": {
+            "compression_ratio": [
+                0.046609071355246126,
+                0.025137896473293814
+            ],
+            "decoding_time_per_second": [
+                0.02456559625802174,
+                0.008510720083279352
+            ],
+            "encoding_time_per_second": [
+                0.025242051027975776,
+                0.007624953046102956
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.40969745540653,
+                3.504079367159484
+            ],
+            "signal_incoherence": [
+                0.33197259985429073,
+                0.046419278467007365
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.512242389949847,
+                3.291549457718211
+            ],
+            "spectral_error_mean_db": [
+                118.41530212819387,
+                3.5144252356206214
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.689914034101917,
+                3.2694134509369954
+            ],
+            "weighted_signal_incoherence": [
+                0.7771431870657786,
+                0.008367868564325108
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.02656060099108,
+                3.401160660260065
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.689914034101917,
+                3.2694134509369954
+            ]
+        },
+        "320k": {
+            "compression_ratio": [
+                0.0581504243618496,
+                0.03136276580329999
+            ],
+            "decoding_time_per_second": [
+                0.02487638757798595,
+                0.009721845620286867
+            ],
+            "encoding_time_per_second": [
+                0.02444846707598208,
+                0.0058609384961066414
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                172.40919521018978,
+                3.5043373427901727
+            ],
+            "signal_incoherence": [
+                0.3033735043090043,
+                0.04181644293974283
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.51219605654571,
+                3.298127312965852
+            ],
+            "spectral_error_mean_db": [
+                118.38652490832786,
+                3.5131309250295137
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.6707569634085795,
+                3.3303559188683027
+            ],
+            "weighted_signal_incoherence": [
+                0.7731638023957844,
+                0.007981901807564813
+            ],
+            "weighted_spectral_error_mean_db": [
+                112.98970579740681,
+                3.3990158350142097
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.6707569634085795,
+                3.3303559188683027
+            ]
+        }
+    },
+    "mp3": {
+        "32k": {
+            "compression_ratio": [
+                0.007143131626134412,
+                0.003889233773732683
+            ],
+            "decoding_time_per_second": [
+                0.024354155920986612,
+                0.00968458862668528
+            ],
+            "encoding_time_per_second": [
+                0.07921713239002566,
+                0.021590071585520704
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.6187022569234,
+                3.501948501722469
+            ],
+            "signal_incoherence": [
+                0.9391109857278788,
+                0.008980879577439023
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                18.982836168673867,
+                3.2289615505011713
+            ],
+            "spectral_error_mean_db": [
+                122.83999547601466,
+                3.486182784018313
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                6.14604076140618,
+                7.346307877125986
+            ],
+            "weighted_signal_incoherence": [
+                0.9659349622655541,
+                0.006084209220109364
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.63530057875496,
+                3.400043153175425
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                6.14604076140618,
+                7.346307877125986
+            ]
+        },
+        "40k": {
+            "compression_ratio": [
+                0.00860856107020324,
+                0.004677964769705661
+            ],
+            "decoding_time_per_second": [
+                0.02618419608502245,
+                0.011524737338606183
+            ],
+            "encoding_time_per_second": [
+                0.08388597362297287,
+                0.025003776899333197
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.65460522482627,
+                3.5005664572891266
+            ],
+            "signal_incoherence": [
+                0.923237907872967,
+                0.0122973553784825
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.045775648445943,
+                3.230911306607826
+            ],
+            "spectral_error_mean_db": [
+                122.76946657386489,
+                3.4888549464086887
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                6.902765132912812,
+                7.772502291193897
+            ],
+            "weighted_signal_incoherence": [
+                0.957367670366711,
+                0.006862594016735221
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.53026695557463,
+                3.3929141826334375
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                6.902765132912812,
+                7.772502291193897
+            ]
+        },
+        "48k": {
+            "compression_ratio": [
+                0.0100134284867695,
+                0.0054453206719440985
+            ],
+            "decoding_time_per_second": [
+                0.02411906332701301,
+                0.009016015203641278
+            ],
+            "encoding_time_per_second": [
+                0.08323839054698237,
+                0.0216414432347118
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.67172854286537,
+                3.4982778192409585
+            ],
+            "signal_incoherence": [
+                0.9126470945371329,
+                0.01274592879576782
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.10691268861226,
+                3.232400683321591
+            ],
+            "spectral_error_mean_db": [
+                122.73118234668978,
+                3.4860801662713143
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                7.334033907753664,
+                7.6332486186309945
+            ],
+            "weighted_signal_incoherence": [
+                0.9506569715284909,
+                0.006361196125747821
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.46975892126773,
+                3.383885662484858
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                7.334033907753664,
+                7.6332486186309945
+            ]
+        },
+        "56k": {
+            "compression_ratio": [
+                0.011373821184241982,
+                0.006199350433372756
+            ],
+            "decoding_time_per_second": [
+                0.024760758883004202,
+                0.009631551406819809
+            ],
+            "encoding_time_per_second": [
+                0.08395789788403726,
+                0.02204615488240648
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.68572295856723,
+                3.5002461386421575
+            ],
+            "signal_incoherence": [
+                0.8958333635013989,
+                0.01572721014203353
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.13886444562027,
+                3.234540995277478
+            ],
+            "spectral_error_mean_db": [
+                122.70735626097749,
+                3.4878014159862536
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.141339255316097,
+                7.8753440118822065
+            ],
+            "weighted_signal_incoherence": [
+                0.9457268320714092,
+                0.005982715836488414
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.43688234886255,
+                3.38464133164855
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.141339255316097,
+                7.8753440118822065
+            ]
+        },
+        "64k": {
+            "compression_ratio": [
+                0.012728290668327256,
+                0.0069544607566236075
+            ],
+            "decoding_time_per_second": [
+                0.025756508249025048,
+                0.009579148054045507
+            ],
+            "encoding_time_per_second": [
+                0.08606234013099083,
+                0.02412437800378465
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.6967528031037,
+                3.4990351709429244
+            ],
+            "signal_incoherence": [
+                0.8796601316037735,
+                0.018084401028343085
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.187291258638997,
+                3.23704175089813
+            ],
+            "spectral_error_mean_db": [
+                122.69040635420662,
+                3.489635509681326
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.606592623127101,
+                7.509689746455822
+            ],
+            "weighted_signal_incoherence": [
+                0.9412351231832713,
+                0.005638441967637793
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.41033445417492,
+                3.3820851617040604
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.606592623127101,
+                7.509689746455822
+            ]
+        },
+        "80k": {
+            "compression_ratio": [
+                0.015377390649319471,
+                0.008463828790329227
+            ],
+            "decoding_time_per_second": [
+                0.02400749450702051,
+                0.008863086313384633
+            ],
+            "encoding_time_per_second": [
+                0.08865451742402501,
+                0.02536788281529793
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.70834459027708,
+                3.498478704361638
+            ],
+            "signal_incoherence": [
+                0.8515699362429751,
+                0.01954037235566881
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.202561916660265,
+                3.2505227036149518
+            ],
+            "spectral_error_mean_db": [
+                122.66926208616228,
+                3.489075195617552
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                9.304871729420933,
+                6.661038843788286
+            ],
+            "weighted_signal_incoherence": [
+                0.9345657137865978,
+                0.005179141882237623
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.38038564897647,
+                3.3789166298812137
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                9.304871729420933,
+                6.661038843788286
+            ]
+        },
+        "96k": {
+            "compression_ratio": [
+                0.01782917996494729,
+                0.009926109070519737
+            ],
+            "decoding_time_per_second": [
+                0.024132045595974885,
+                0.008205625621098238
+            ],
+            "encoding_time_per_second": [
+                0.08774314338402792,
+                0.023831153882598
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.71714413959674,
+                3.4973439408963407
+            ],
+            "signal_incoherence": [
+                0.8275648696836093,
+                0.019284072842238615
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.225663405872925,
+                3.247072113768664
+            ],
+            "spectral_error_mean_db": [
+                122.66250846757198,
+                3.4883853513011873
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.11555301457854,
+                6.0073790575572446
+            ],
+            "weighted_signal_incoherence": [
+                0.9295894931307238,
+                0.004706107284430424
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.37074357014798,
+                3.376539301802036
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.11555301457854,
+                6.0073790575572446
+            ]
+        },
+        "112k": {
+            "compression_ratio": [
+                0.02019838976534285,
+                0.011300297006907758
+            ],
+            "decoding_time_per_second": [
+                0.02394245140900648,
+                0.00890372025246492
+            ],
+            "encoding_time_per_second": [
+                0.08938884229200085,
+                0.023322302319028952
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.72273136093395,
+                3.497299327117083
+            ],
+            "signal_incoherence": [
+                0.8086595831824748,
+                0.017352486442718588
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.250625730531766,
+                3.2511375308598205
+            ],
+            "spectral_error_mean_db": [
+                122.65504488317082,
+                3.4872405720053394
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.511633239649523,
+                5.608442730586122
+            ],
+            "weighted_signal_incoherence": [
+                0.9256846967270025,
+                0.004274514451945958
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.35881309054831,
+                3.3750594261843174
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.511633239649523,
+                5.608442730586122
+            ]
+        },
+        "128k": {
+            "compression_ratio": [
+                0.022511783870112077,
+                0.012591287469454041
+            ],
+            "decoding_time_per_second": [
+                0.025791592740981285,
+                0.010471872657130458
+            ],
+            "encoding_time_per_second": [
+                0.09364706974001365,
+                0.02278307071547105
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.72608932767736,
+                3.4971198222246245
+            ],
+            "signal_incoherence": [
+                0.7937773978277468,
+                0.015275629092575503
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.257133946478458,
+                3.256249594070429
+            ],
+            "spectral_error_mean_db": [
+                122.64751460186065,
+                3.4890999347184435
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.714109437821328,
+                5.1243534997167695
+            ],
+            "weighted_signal_incoherence": [
+                0.9227245645040852,
+                0.003863674071262766
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.34871205873134,
+                3.3763760039736783
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.714109437821328,
+                5.1243534997167695
+            ]
+        },
+        "144k": {
+            "compression_ratio": [
+                0.025720092349191436,
+                0.0143778384370549
+            ],
+            "decoding_time_per_second": [
+                0.025835911077020227,
+                0.012441258155058041
+            ],
+            "encoding_time_per_second": [
+                0.0973240068059631,
+                0.02459546129777634
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.7263611821945,
+                3.496450088664099
+            ],
+            "signal_incoherence": [
+                0.7772306472749939,
+                0.01579287648595002
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.28290731460701,
+                3.2686581041693303
+            ],
+            "spectral_error_mean_db": [
+                122.63472862160874,
+                3.489424034365262
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.798287685313305,
+                5.138414841878513
+            ],
+            "weighted_signal_incoherence": [
+                0.9193208192431339,
+                0.0038557047202466602
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.33060052305186,
+                3.375915183890317
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.798287685313305,
+                5.138414841878513
+            ]
+        },
+        "160k": {
+            "compression_ratio": [
+                0.027566294969374957,
+                0.015326054904452106
+            ],
+            "decoding_time_per_second": [
+                0.025639208239999788,
+                0.009977633664687128
+            ],
+            "encoding_time_per_second": [
+                0.10146591950601214,
+                0.024043913277272077
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.72722721893058,
+                3.496666879835793
+            ],
+            "signal_incoherence": [
+                0.7699104568251248,
+                0.014843513742325214
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.280590777369497,
+                3.27802021908266
+            ],
+            "spectral_error_mean_db": [
+                122.63133129317998,
+                3.4906152419494414
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.80266166984022,
+                5.164221376437814
+            ],
+            "weighted_signal_incoherence": [
+                0.917851691074002,
+                0.003633351630305738
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.32489772372307,
+                3.3759591176011803
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.80266166984022,
+                5.164221376437814
+            ]
+        },
+        "192k": {
+            "compression_ratio": [
+                0.033193644015593764,
+                0.01832709323970973
+            ],
+            "decoding_time_per_second": [
+                0.026085906664013236,
+                0.010607272480350802
+            ],
+            "encoding_time_per_second": [
+                0.09358983790201865,
+                0.02718508362776247
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.8084810186952,
+                3.4912634052307236
+            ],
+            "signal_incoherence": [
+                0.7493138280988038,
+                0.016115388662612525
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.43071204483116,
+                3.2637970048027087
+            ],
+            "spectral_error_mean_db": [
+                122.67158269107792,
+                3.4885183847053667
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.001273332626747,
+                5.071025315853661
+            ],
+            "weighted_signal_incoherence": [
+                0.9143926307559563,
+                0.0036447533787649757
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.36702411823012,
+                3.37454284252553
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.001273332626747,
+                5.071025315853661
+            ]
+        },
+        "224k": {
+            "compression_ratio": [
+                0.03865889000023051,
+                0.021353628011800244
+            ],
+            "decoding_time_per_second": [
+                0.026235627175977244,
+                0.010931656036018235
+            ],
+            "encoding_time_per_second": [
+                0.09787638506296435,
+                0.02821604380000965
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.84916322244393,
+                3.4881846577803732
+            ],
+            "signal_incoherence": [
+                0.7350132303849555,
+                0.017647544987896318
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.517574115159942,
+                3.2640998493312345
+            ],
+            "spectral_error_mean_db": [
+                122.70057373697662,
+                3.4871481086226326
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.267059936961939,
+                5.18331651988865
+            ],
+            "weighted_signal_incoherence": [
+                0.9126139981134732,
+                0.0036105211193232507
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.39504654914916,
+                3.3734792534936098
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.267059936961939,
+                5.18331651988865
+            ]
+        },
+        "256k": {
+            "compression_ratio": [
+                0.04410463268986247,
+                0.02441707758858822
+            ],
+            "decoding_time_per_second": [
+                0.026467202545952206,
+                0.011328880209860864
+            ],
+            "encoding_time_per_second": [
+                0.0985115231289501,
+                0.02825022769384843
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.93075451241083,
+                3.4825006549485438
+            ],
+            "signal_incoherence": [
+                0.726411904209421,
+                0.0185073180621471
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.690194734052213,
+                3.2652150131147493
+            ],
+            "spectral_error_mean_db": [
+                122.78079572403719,
+                3.485651400207129
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.505640421370064,
+                5.12241883550998
+            ],
+            "weighted_signal_incoherence": [
+                0.9115449093422082,
+                0.0036311110847233588
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.47238003787811,
+                3.3726212174712495
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.505640421370064,
+                5.12241883550998
+            ]
+        },
+        "320k": {
+            "compression_ratio": [
+                0.05122126282438774,
+                0.028395902854393293
+            ],
+            "decoding_time_per_second": [
+                0.026377518331967623,
+                0.011517168725348815
+            ],
+            "encoding_time_per_second": [
+                0.11022229924502744,
+                0.05689376947154727
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                171.93062827833288,
+                3.4825727679144713
+            ],
+            "signal_incoherence": [
+                0.7129702570921953,
+                0.020026569376561894
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                19.681141253796508,
+                3.26567602927943
+            ],
+            "spectral_error_mean_db": [
+                122.77838413360591,
+                3.4854602522945295
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.789255274099142,
+                5.143325495064656
+            ],
+            "weighted_signal_incoherence": [
+                0.9106779387976629,
+                0.0036096443725372276
+            ],
+            "weighted_spectral_error_mean_db": [
+                117.46902981483207,
+                3.3718803300142803
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.789255274099142,
+                5.143325495064656
+            ]
+        }
+    },
+    "opus": {
+        "32k": {
+            "compression_ratio": [
+                0.006472751401622326,
+                0.0035348490445722518
+            ],
+            "decoding_time_per_second": [
+                0.02547383852697658,
+                0.008397298799406667
+            ],
+            "encoding_time_per_second": [
+                0.0318214022480297,
+                0.005783295371304606
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                158.33063270929534,
+                4.128318863387116
+            ],
+            "signal_incoherence": [
+                0.7751372820045186,
+                0.03218753289898355
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                8.598066707322458,
+                4.035153346727383
+            ],
+            "spectral_error_mean_db": [
+                118.2421639571851,
+                3.60393095788253
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                15.051704949279245,
+                9.360369152731026
+            ],
+            "weighted_signal_incoherence": [
+                0.877170424070145,
+                0.01412174988370957
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.74887562441938,
+                3.7887226318689673
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                15.051704949279245,
+                9.360369152731026
+            ]
+        },
+        "40k": {
+            "compression_ratio": [
+                0.007985927886404839,
+                0.004360112738490477
+            ],
+            "decoding_time_per_second": [
+                0.026908201453007676,
+                0.009039439266907513
+            ],
+            "encoding_time_per_second": [
+                0.032010078300982965,
+                0.006760186650577634
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                157.1458570008804,
+                4.1649598098592495
+            ],
+            "signal_incoherence": [
+                0.7114847941620249,
+                0.042112574452035076
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                7.410934414855296,
+                4.05394966713202
+            ],
+            "spectral_error_mean_db": [
+                117.65715713443053,
+                3.6195320824934294
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                14.471128021030193,
+                9.667824348213376
+            ],
+            "weighted_signal_incoherence": [
+                0.8591888175171608,
+                0.015340569320467705
+            ],
+            "weighted_spectral_error_mean_db": [
+                113.17844625372081,
+                3.8106946646735684
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                14.471128021030193,
+                9.667824348213376
+            ]
+        },
+        "48k": {
+            "compression_ratio": [
+                0.009513492349620943,
+                0.005194520818551808
+            ],
+            "decoding_time_per_second": [
+                0.02701478863502598,
+                0.009407393950746745
+            ],
+            "encoding_time_per_second": [
+                0.031979098239040014,
+                0.006776426834817062
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                156.20789704492776,
+                4.198629598481032
+            ],
+            "signal_incoherence": [
+                0.6433046814957327,
+                0.04456348671261514
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                6.51516712161161,
+                4.152286776132912
+            ],
+            "spectral_error_mean_db": [
+                117.22278029212445,
+                3.636473671786574
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                13.480857547639621,
+                9.161519223638674
+            ],
+            "weighted_signal_incoherence": [
+                0.8443829689540945,
+                0.01455830388440596
+            ],
+            "weighted_spectral_error_mean_db": [
+                112.75798246715449,
+                3.831687930606298
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                13.480857547639621,
+                9.161519223638674
+            ]
+        },
+        "56k": {
+            "compression_ratio": [
+                0.01101309859966957,
+                0.006026032457028007
+            ],
+            "decoding_time_per_second": [
+                0.028242034226012947,
+                0.011747888989129632
+            ],
+            "encoding_time_per_second": [
+                0.03096279181498312,
+                0.006014615421787019
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                155.19371665563892,
+                4.1940561103777965
+            ],
+            "signal_incoherence": [
+                0.5738514155050132,
+                0.045503570094045806
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                5.442401621768188,
+                4.011196703253961
+            ],
+            "spectral_error_mean_db": [
+                116.86566576428913,
+                3.6413349233783743
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                13.116090223497478,
+                9.484131812205792
+            ],
+            "weighted_signal_incoherence": [
+                0.8265692800257277,
+                0.013875828710348967
+            ],
+            "weighted_spectral_error_mean_db": [
+                112.35512044686725,
+                3.8419016637288843
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                13.116090223497478,
+                9.484131812205792
+            ]
+        },
+        "64k": {
+            "compression_ratio": [
+                0.012517790476800591,
+                0.006860157799501536
+            ],
+            "decoding_time_per_second": [
+                0.027049751356976685,
+                0.009115371827419253
+            ],
+            "encoding_time_per_second": [
+                0.03134442537902259,
+                0.006382428013896694
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                154.4442484606042,
+                4.192864883634014
+            ],
+            "signal_incoherence": [
+                0.5312529584955051,
+                0.04649810628897645
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                4.8635132137004335,
+                4.0714839792914574
+            ],
+            "spectral_error_mean_db": [
+                116.48010888007019,
+                3.6435053298074345
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                12.417663992618289,
+                8.98067325479741
+            ],
+            "weighted_signal_incoherence": [
+                0.8164571836933152,
+                0.013527593868928805
+            ],
+            "weighted_spectral_error_mean_db": [
+                111.9576351011945,
+                3.8427265212697668
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                12.417663992618289,
+                8.98067325479741
+            ]
+        },
+        "80k": {
+            "compression_ratio": [
+                0.0153212015307515,
+                0.008463807571603508
+            ],
+            "decoding_time_per_second": [
+                0.028435414278989355,
+                0.010780984992589077
+            ],
+            "encoding_time_per_second": [
+                0.03181054545797769,
+                0.006207257994085974
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                152.52827120685112,
+                4.254196302824347
+            ],
+            "signal_incoherence": [
+                0.48841885922247674,
+                0.044987101282213456
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                3.010711089392851,
+                4.194134515108891
+            ],
+            "spectral_error_mean_db": [
+                115.39561140106215,
+                3.6541243361554794
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                11.521578876374928,
+                8.542755789503923
+            ],
+            "weighted_signal_incoherence": [
+                0.8042595973858614,
+                0.011696269743728236
+            ],
+            "weighted_spectral_error_mean_db": [
+                110.93088653471132,
+                3.8520902876306735
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                11.521578876374928,
+                8.542755789503923
+            ]
+        },
+        "96k": {
+            "compression_ratio": [
+                0.01810314125843373,
+                0.010028782923331744
+            ],
+            "decoding_time_per_second": [
+                0.027796483873997205,
+                0.009125734414242767
+            ],
+            "encoding_time_per_second": [
+                0.032497912372958127,
+                0.006151590167411011
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                151.3035533194759,
+                4.266451721316209
+            ],
+            "signal_incoherence": [
+                0.4490599498249902,
+                0.04416426473036823
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                1.6636340488706143,
+                4.197986191626137
+            ],
+            "spectral_error_mean_db": [
+                114.80015494002353,
+                3.6511094510357824
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                10.41813054165177,
+                7.5713058823918145
+            ],
+            "weighted_signal_incoherence": [
+                0.7951625770590675,
+                0.010711597510534797
+            ],
+            "weighted_spectral_error_mean_db": [
+                110.28812460864599,
+                3.836901010215967
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                10.41813054165177,
+                7.5713058823918145
+            ]
+        },
+        "112k": {
+            "compression_ratio": [
+                0.021022677505387367,
+                0.011676368347978546
+            ],
+            "decoding_time_per_second": [
+                0.027501878198002486,
+                0.007930916336381235
+            ],
+            "encoding_time_per_second": [
+                0.033305136312993,
+                0.00653920601047766
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                150.07005396547743,
+                4.267490822684992
+            ],
+            "signal_incoherence": [
+                0.4131086332423879,
+                0.04566199542682967
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                0.48542436124439703,
+                4.1844675315882185
+            ],
+            "spectral_error_mean_db": [
+                114.16426149037567,
+                3.644830494578569
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                9.739352817196972,
+                6.348916226435304
+            ],
+            "weighted_signal_incoherence": [
+                0.7873874239112666,
+                0.010043190818221737
+            ],
+            "weighted_spectral_error_mean_db": [
+                109.61074059699031,
+                3.8257384615839585
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                9.739352817196972,
+                6.348916226435304
+            ]
+        },
+        "128k": {
+            "compression_ratio": [
+                0.02401905333959483,
+                0.01331796801870417
+            ],
+            "decoding_time_per_second": [
+                0.02833771199601415,
+                0.007966760697163611
+            ],
+            "encoding_time_per_second": [
+                0.0337452351430079,
+                0.006777404019476654
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                148.9614577991647,
+                4.333592541664648
+            ],
+            "signal_incoherence": [
+                0.364301713001102,
+                0.04465621901022838
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -0.7085829002288911,
+                4.2057754648835095
+            ],
+            "spectral_error_mean_db": [
+                113.59742024083542,
+                3.6511775891002216
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                8.680356018732192,
+                7.203689872929407
+            ],
+            "weighted_signal_incoherence": [
+                0.7802114583895718,
+                0.009709026667252284
+            ],
+            "weighted_spectral_error_mean_db": [
+                109.03235447016712,
+                3.8373453719317903
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                8.680356018732192,
+                7.203689872929407
+            ]
+        },
+        "144k": {
+            "compression_ratio": [
+                0.026998215753567693,
+                0.014940495684102741
+            ],
+            "decoding_time_per_second": [
+                0.029185772673988593,
+                0.009738960152312558
+            ],
+            "encoding_time_per_second": [
+                0.034830415238008755,
+                0.007894736586232251
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                148.14195590473696,
+                4.359977753039245
+            ],
+            "signal_incoherence": [
+                0.3013213116436721,
+                0.04351779099779007
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -1.4450180464662545,
+                4.307175940493756
+            ],
+            "spectral_error_mean_db": [
+                113.20277552353609,
+                3.6514184582915488
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                6.856335563019776,
+                6.14540677733608
+            ],
+            "weighted_signal_incoherence": [
+                0.7741385441482874,
+                0.009299093975779072
+            ],
+            "weighted_spectral_error_mean_db": [
+                108.6262884342054,
+                3.838859556810827
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                6.856335563019776,
+                6.14540677733608
+            ]
+        },
+        "160k": {
+            "compression_ratio": [
+                0.02989476880562511,
+                0.01658637055112803
+            ],
+            "decoding_time_per_second": [
+                0.029019523104012478,
+                0.008512989795090969
+            ],
+            "encoding_time_per_second": [
+                0.03504236341203568,
+                0.0076189250353793335
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                147.37645279392046,
+                4.333492705453245
+            ],
+            "signal_incoherence": [
+                0.260501090237255,
+                0.04269704685245643
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -2.2410638205065023,
+                4.157562405447353
+            ],
+            "spectral_error_mean_db": [
+                112.81611092481727,
+                3.6474355629039787
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                5.654135504428282,
+                6.1713310610567405
+            ],
+            "weighted_signal_incoherence": [
+                0.7698923406733251,
+                0.00912111176415036
+            ],
+            "weighted_spectral_error_mean_db": [
+                108.19766243067133,
+                3.820642622440116
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                5.6541355044282815,
+                6.1713310610567405
+            ]
+        },
+        "192k": {
+            "compression_ratio": [
+                0.03583293649582477,
+                0.019868481323722768
+            ],
+            "decoding_time_per_second": [
+                0.029176611424989004,
+                0.010023939036818324
+            ],
+            "encoding_time_per_second": [
+                0.03542370180798298,
+                0.007612189150352127
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                145.93351433864163,
+                4.335377656661429
+            ],
+            "signal_incoherence": [
+                0.21333432295864146,
+                0.04080650838240177
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -3.6773022908989415,
+                4.2658814416483395
+            ],
+            "spectral_error_mean_db": [
+                112.115458955505,
+                3.6439164883650683
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                3.495874230486375,
+                4.374051275184429
+            ],
+            "weighted_signal_incoherence": [
+                0.7644445108919191,
+                0.008639587633189586
+            ],
+            "weighted_spectral_error_mean_db": [
+                107.33455493154906,
+                3.788839415877282
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                3.495874230486375,
+                4.374051275184429
+            ]
+        },
+        "224k": {
+            "compression_ratio": [
+                0.04178450275194714,
+                0.02316435783900512
+            ],
+            "decoding_time_per_second": [
+                0.0308994519150192,
+                0.01245611091049157
+            ],
+            "encoding_time_per_second": [
+                0.03616117039501068,
+                0.008105876792757621
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                144.64834740699342,
+                4.34560321757595
+            ],
+            "signal_incoherence": [
+                0.18713541784030388,
+                0.03592452898921434
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -4.919425374826868,
+                4.165692119016913
+            ],
+            "spectral_error_mean_db": [
+                111.42490478741773,
+                3.6284378812751914
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                1.7414117825571178,
+                4.0029722585316545
+            ],
+            "weighted_signal_incoherence": [
+                0.7613193139611086,
+                0.00836736845876665
+            ],
+            "weighted_spectral_error_mean_db": [
+                106.51126292686871,
+                3.7683893597426463
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                1.741411782557118,
+                4.0029722585316545
+            ]
+        },
+        "256k": {
+            "compression_ratio": [
+                0.04773604114267514,
+                0.026463500376854014
+            ],
+            "decoding_time_per_second": [
+                0.030118846368999586,
+                0.009126231367449344
+            ],
+            "encoding_time_per_second": [
+                0.03650331802400342,
+                0.00833898102306373
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                143.44310626730726,
+                4.4914747353834334
+            ],
+            "signal_incoherence": [
+                0.17159687183665134,
+                0.0324994593992467
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -6.143954718569576,
+                4.288316149069864
+            ],
+            "spectral_error_mean_db": [
+                110.66364690353777,
+                3.6769298052318926
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                0.33530830004970535,
+                4.096112250886499
+            ],
+            "weighted_signal_incoherence": [
+                0.7594993392448858,
+                0.008247617183137119
+            ],
+            "weighted_spectral_error_mean_db": [
+                105.59992246669586,
+                3.7914796206531887
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                0.3353083000497053,
+                4.096112250886499
+            ]
+        },
+        "320k": {
+            "compression_ratio": [
+                0.05911627864989198,
+                0.03264783360262903
+            ],
+            "decoding_time_per_second": [
+                0.030345994093007447,
+                0.008704685429462518
+            ],
+            "encoding_time_per_second": [
+                0.036666483870021235,
+                0.0079435930133182
+            ],
+            "hash_perfect": -3.475808680568976,
+            "signal_error_mean_db": [
+                141.59843777375238,
+                4.608097309678835
+            ],
+            "signal_incoherence": [
+                0.1559548752244463,
+                0.03142170004546145
+            ],
+            "signal_noise_to_signal_ratio_mean_db": [
+                -7.954505194854049,
+                4.369981749528466
+            ],
+            "spectral_error_mean_db": [
+                109.31344975223652,
+                3.7373450527953005
+            ],
+            "spectral_noise_to_signal_ratio_mean_db": [
+                -2.0060663883649585,
+                4.003492141283259
+            ],
+            "weighted_signal_incoherence": [
+                0.7578201626739054,
+                0.00818786653201984
+            ],
+            "weighted_spectral_error_mean_db": [
+                103.88370979508416,
+                3.7696512598000833
+            ],
+            "weighted_spectral_noise_to_signal_ratio_mean_db": [
+                -2.0060663883649585,
+                4.003492141283259
+            ]
+        }
+    }
+}
