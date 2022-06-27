@@ -308,7 +308,7 @@ def iso226_weights_db(frequencies, Lp=40):
 
 def weigh(data, weights, axis):
     weights = np.power(10, (weights / 20))
-    weights = weights / np.max(weights)
+    weights = weights / np.mean(weights)
     return np.apply_along_axis(np.multiply, axis, data, weights)
 
 
@@ -342,23 +342,25 @@ if False:
     plt.show()
 
 
-def difference_db(clear_signal, noisy_signal, q=None, is_power=False):
+def difference(clear_signal, noisy_signal, q=None):  # , is_power=False):
     v = np.abs(noisy_signal - clear_signal)
     if q is None:
         r = np.mean(v).item()
     else:
         r = np.percentile(v, q=q).item()
-    return (10 if is_power else 20) * math.log10(r)
+    # return (10 if is_power else 20) * math.log10(r)
+    return r
 
 
-def noise_to_signal_ratio_db(clear_signal, noisy_signal, q=None, is_power=False):
+def noise_to_signal_ratio(clear_signal, noisy_signal, q=None):  # , is_power=False):
     i = np.nonzero(clear_signal)  # avoid zero division loosing some data
     v = np.abs((noisy_signal[i] - clear_signal[i]) / clear_signal[i])
     if q is None:
         r = np.mean(v).item()
     else:
         r = np.percentile(v, q=q).item()
-    return (10 if is_power else 20) * math.log10(r)
+    # return (10 if is_power else 20) * math.log10(r)
+    return r
 
 
 def calculate_difference(original_info, original, original_samplerate, decoded_info, decoded, decoded_samplerate, duration, original_spectro=None, weighted_original_spectro=None, differences=None):
@@ -385,13 +387,13 @@ def calculate_difference(original_info, original, original_samplerate, decoded_i
         logging.info(">> Calculating decoded.wav hash_perfect ...")
         differences["hash_perfect"] = original_info["hash"] == decoded_info["hash"]
     # each variable has to check if has all it needs, it's ugly i know...
-    if "signal_error_mean_db" not in differences or False:
-        logging.info(">> Calculating decoded.wav signal_error_mean_db ...")
-        differences["signal_error_mean_db"] = difference_db(original, decoded, is_power=False)
-    if "signal_noise_to_signal_ratio_mean_db" not in differences or False:
-        logging.info(">> Calculating decoded.wav signal_noise_to_signal_ratio_mean_db ...")
-        differences["signal_noise_to_signal_ratio_mean_db"] = noise_to_signal_ratio_db(original, decoded, is_power=False)
-    if "spectral_error_mean_db" not in differences or False:
+    if "signal_error_mean" not in differences or False:
+        logging.info(">> Calculating decoded.wav signal_error_mean ...")
+        differences["signal_error_mean"] = difference(original, decoded)  # , is_power=False)
+    if "signal_noise_to_signal_ratio_mean" not in differences or False:
+        logging.info(">> Calculating decoded.wav signal_noise_to_signal_ratio_mean ...")
+        differences["signal_noise_to_signal_ratio_mean"] = noise_to_signal_ratio(original, decoded)  # , is_power=False)
+    if "spectral_error_mean" not in differences or False:
         if original_spectro is None:
             logging.info(">> Calculating original.wav spectrogram ...")
             original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
@@ -399,35 +401,9 @@ def calculate_difference(original_info, original, original_samplerate, decoded_i
             logging.info(">> Calculating decoded.wav spectrogram ...")
             decoded_spectro_f, decoded_spectro_t, decoded_spectro = power_spectro(decoded, decoded_samplerate)
             # decoded_spectro = decoded_spectro[:, :, :original_spectro.shape[2]]
-        logging.info(">> Calculating decoded.wav spectral_error_mean_db ...")
-        differences["spectral_error_mean_db"] = difference_db(original_spectro, decoded_spectro, is_power=True)
-    if "weighted_spectral_error_mean_db" not in differences or False:
-        if original_spectro is None:
-            logging.info(">> Calculating original.wav spectrogram ...")
-            original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
-        if decoded_spectro is None:
-            logging.info(">> Calculating decoded.wav spectrogram ...")
-            decoded_spectro_f, decoded_spectro_t, decoded_spectro = power_spectro(decoded, decoded_samplerate)
-            # decoded_spectro = decoded_spectro[:, :, :original_spectro.shape[2]]
-        if weighted_original_spectro is None:
-            logging.info(">> Calculating original.wav weighted spectrogram ...")
-            weighted_original_spectro = iso226_weigh_power_spectro(original_spectro, original_spectro_f)
-        if weighted_decoded_spectro is None:
-            logging.info(">> Calculating decoded.wav weighted spectrogram ...")
-            weighted_decoded_spectro = iso226_weigh_power_spectro(decoded_spectro, decoded_spectro_f)
-        logging.info(">> Calculating decoded.wav weighted_spectral_error_mean_db ...")
-        differences["weighted_spectral_error_mean_db"] = difference_db(weighted_original_spectro, weighted_decoded_spectro, is_power=True)
-    if "spectral_noise_to_signal_ratio_mean_db" not in differences or False:
-        if original_spectro is None:
-            logging.info(">> Calculating original.wav spectrogram ...")
-            original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
-        if decoded_spectro is None:
-            logging.info(">> Calculating decoded.wav spectrogram ...")
-            decoded_spectro_f, decoded_spectro_t, decoded_spectro = power_spectro(decoded, decoded_samplerate)
-            # decoded_spectro = decoded_spectro[:, :, :original_spectro.shape[2]]
-        logging.info(">> Calculating decoded.wav spectral_noise_to_signal_ratio_mean_db ...")
-        differences["spectral_noise_to_signal_ratio_mean_db"] = noise_to_signal_ratio_db(original_spectro, decoded_spectro, is_power=True)
-    if "weighted_spectral_noise_to_signal_ratio_mean_db" not in differences or False:
+        logging.info(">> Calculating decoded.wav spectral_error_mean ...")
+        differences["spectral_error_mean"] = difference(original_spectro, decoded_spectro)  # , is_power=True)
+    if "weighted_spectral_error_mean" not in differences or False:
         if original_spectro is None:
             logging.info(">> Calculating original.wav spectrogram ...")
             original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
@@ -441,8 +417,34 @@ def calculate_difference(original_info, original, original_samplerate, decoded_i
         if weighted_decoded_spectro is None:
             logging.info(">> Calculating decoded.wav weighted spectrogram ...")
             weighted_decoded_spectro = iso226_weigh_power_spectro(decoded_spectro, decoded_spectro_f)
-        logging.info(">> Calculating decoded.wav weighted_spectral_noise_to_signal_ratio_mean_db ...")
-        differences["weighted_spectral_noise_to_signal_ratio_mean_db"] = noise_to_signal_ratio_db(weighted_original_spectro, weighted_decoded_spectro, is_power=True)
+        logging.info(">> Calculating decoded.wav weighted_spectral_error_mean ...")
+        differences["weighted_spectral_error_mean"] = difference(weighted_original_spectro, weighted_decoded_spectro)  # , is_power=True)
+    if "spectral_noise_to_signal_ratio_mean" not in differences or False:
+        if original_spectro is None:
+            logging.info(">> Calculating original.wav spectrogram ...")
+            original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
+        if decoded_spectro is None:
+            logging.info(">> Calculating decoded.wav spectrogram ...")
+            decoded_spectro_f, decoded_spectro_t, decoded_spectro = power_spectro(decoded, decoded_samplerate)
+            # decoded_spectro = decoded_spectro[:, :, :original_spectro.shape[2]]
+        logging.info(">> Calculating decoded.wav spectral_noise_to_signal_ratio_mean ...")
+        differences["spectral_noise_to_signal_ratio_mean"] = noise_to_signal_ratio(original_spectro, decoded_spectro)  # , is_power=True)
+    if "weighted_spectral_noise_to_signal_ratio_mean" not in differences or False:
+        if original_spectro is None:
+            logging.info(">> Calculating original.wav spectrogram ...")
+            original_spectro_f, original_spectro_t, original_spectro = power_spectro(original, original_samplerate)
+        if decoded_spectro is None:
+            logging.info(">> Calculating decoded.wav spectrogram ...")
+            decoded_spectro_f, decoded_spectro_t, decoded_spectro = power_spectro(decoded, decoded_samplerate)
+            # decoded_spectro = decoded_spectro[:, :, :original_spectro.shape[2]]
+        if weighted_original_spectro is None:
+            logging.info(">> Calculating original.wav weighted spectrogram ...")
+            weighted_original_spectro = iso226_weigh_power_spectro(original_spectro, original_spectro_f)
+        if weighted_decoded_spectro is None:
+            logging.info(">> Calculating decoded.wav weighted spectrogram ...")
+            weighted_decoded_spectro = iso226_weigh_power_spectro(decoded_spectro, decoded_spectro_f)
+        logging.info(">> Calculating decoded.wav weighted_spectral_noise_to_signal_ratio_mean ...")
+        differences["weighted_spectral_noise_to_signal_ratio_mean"] = noise_to_signal_ratio(weighted_original_spectro, weighted_decoded_spectro)  # , is_power=True)
     if "signal_incoherence" not in differences or False:
         if signal_coherence is None:
             logging.info(">> Calculating original.wav signal_coherence ...")
@@ -655,12 +657,12 @@ def run_benchmark(files, codecs, resume=False):
                     results[file][codec_name][spec_name] = None  # mark as to be run
                 if results[file][codec_name][spec_name] is not None:
                     if all(i in results[file][codec_name][spec_name] for i in {
-                        "signal_error_mean_db",
-                        "signal_noise_to_signal_ratio_mean_db",
-                        "spectral_error_mean_db",
-                        "weighted_spectral_error_mean_db",
-                        "spectral_noise_to_signal_ratio_mean_db",
-                        "weighted_spectral_noise_to_signal_ratio_mean_db",
+                        "signal_error_mean",
+                        "signal_noise_to_signal_ratio_mean",
+                        "spectral_error_mean",
+                        "weighted_spectral_error_mean",
+                        "spectral_noise_to_signal_ratio_mean",
+                        "weighted_spectral_noise_to_signal_ratio_mean",
                         "signal_incoherence",
                         "weighted_signal_incoherence",
                     }) and True:
@@ -788,12 +790,12 @@ The tests have been run using, [`ffmpeg`](https://ffmpeg.org/) ({version} on {pl
                 for n in [
                     "encoding_time_per_second",
                     "decoding_time_per_second",
-                    "signal_error_mean_db",
-                    "signal_noise_to_signal_ratio_mean_db",
-                    "spectral_error_mean_db",
-                    "weighted_spectral_error_mean_db",
-                    "spectral_noise_to_signal_ratio_mean_db",
-                    "weighted_spectral_noise_to_signal_ratio_mean_db",
+                    "signal_error_mean",
+                    "signal_noise_to_signal_ratio_mean",
+                    "spectral_error_mean",
+                    "weighted_spectral_error_mean",
+                    "spectral_noise_to_signal_ratio_mean",
+                    "weighted_spectral_noise_to_signal_ratio_mean",
                     "signal_incoherence",
                     "weighted_signal_incoherence",
                 ]:
@@ -824,12 +826,12 @@ def plot_merged_results(merged_results):
                 codec_plots[result_name][1].append(result_value[1])
         compression_ratio = [[i * 100 for i in ms] for ms in codec_plots["compression_ratio"]]
         for i, n in enumerate([
-            "signal_error_mean_db",
-            "signal_noise_to_signal_ratio_mean_db",
-            "spectral_error_mean_db",
-            "spectral_noise_to_signal_ratio_mean_db",
-            "weighted_spectral_error_mean_db",
-            "weighted_spectral_noise_to_signal_ratio_mean_db",
+            "signal_error_mean",
+            "signal_noise_to_signal_ratio_mean",
+            "spectral_error_mean",
+            "spectral_noise_to_signal_ratio_mean",
+            "weighted_spectral_error_mean",
+            "weighted_spectral_noise_to_signal_ratio_mean",
             "signal_incoherence",
             "weighted_signal_incoherence",
         ], start=1):
@@ -849,6 +851,7 @@ def plot_merged_results(merged_results):
             )
             # set multiple times to make the code shorter
             plt.xlabel("compression ratio %")
+            plt.yscale("symlog")
             plt.ylabel(n.replace("_", " "))
             plt.legend()
             plt.tight_layout()

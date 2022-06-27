@@ -92,8 +92,9 @@ codecs = {
 
 
 if __name__ == "__main__":
-    merged_results = run_benchmark(files, codecs, resume=True)
-    if False:
+    if True:
+        merged_results = run_benchmark(files, codecs, resume=True)
+    else:
         info, results, merged_results = load_checkpoint()
     save_table(merged_results)
     plot_merged_results(merged_results)
